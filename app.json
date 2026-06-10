@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "Digital Visiting Card",
+    "slug": "digital-visiting-card",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1A237E"
+      },
+      "package": "com.digitalvisitingcard.app",
+      "versionCode": 1
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.digitalvisitingcard.app"
+    }
+  }
+}
