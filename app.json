@@ -4,14 +4,12 @@
     "slug": "digital-visiting-card",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./icon.png",
     "userInterfaceStyle": "light",
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./adaptive-icon.png",
         "backgroundColor": "#1A237E"
       },
       "package": "com.digitalvisitingcard.app",
@@ -20,11 +18,6 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.digitalvisitingcard.app"
-    },
-    "extra": {
-      "eas": {
-        "projectId": "5e3e04aa-cdb1-425b-b354-b8843040b2af"
-      }
     }
   }
 }
